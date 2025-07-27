@@ -1,0 +1,4 @@
+2025-05-22 00:40:37,579 - model_trainer - INFO - Starting training scheduler
+2025-05-22 00:40:37,579 - model_trainer - INFO - Starting scheduled training job
+2025-05-22 00:40:37,581 - model_trainer - INFO - Exported 0 high-quality examples for training
+2025-05-22 00:40:37,581 - model_trainer - INFO - Training job completed successfully

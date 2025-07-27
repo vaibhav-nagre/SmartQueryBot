@@ -1,0 +1,44 @@
+{
+  "technical_simplification": [
+    {
+      "from": "\\b(\\w+ization)\\b",
+      "to": "the process of \\1"
+    },
+    {
+      "from": "\\b(\\w+ology)\\b",
+      "to": "the study of \\1"
+    }
+  ],
+  "clarity_improvements": [
+    {
+      "from": "\\bdetermine\\b",
+      "to": "find out"
+    },
+    {
+      "from": "\\butilize\\b",
+      "to": "use"
+    },
+    {
+      "from": "\\bimplement\\b",
+      "to": "put in place"
+    },
+    {
+      "from": "\\bsubsequently\\b",
+      "to": "later"
+    }
+  ],
+  "formatting_rules": [
+    {
+      "from": "(\\d+)%",
+      "to": "**\\1%**"
+    },
+    {
+      "from": "(\\d{4}-\\d{4})",
+      "to": "**\\1**"
+    },
+    {
+      "from": "\\b(\\d{4})\\b",
+      "to": "**\\1**"
+    }
+  ]
+}

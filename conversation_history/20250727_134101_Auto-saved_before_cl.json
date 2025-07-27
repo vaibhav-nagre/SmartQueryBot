@@ -1,0 +1,19 @@
+{
+  "title": "Auto-saved before clearing",
+  "timestamp": "2025-07-27 13:41:01",
+  "website_url": "https://learning.postman.com/docs/introduction/overview/",
+  "messages": [
+    {
+      "role": "AI",
+      "content": "Hello! I'm your AI assistant. Enter a website URL in the sidebar to begin analyzing content, or ask me anything!"
+    },
+    {
+      "role": "Human",
+      "content": "what are collections?"
+    },
+    {
+      "role": "AI",
+      "content": "Postman Collections are groups of saved requests that allow you to organize and group your API requests. You can run collections manually, on a schedule, from a CI/CD pipeline, or from a webhook. Collections help streamline the process of testing and interacting with APIs by allowing you to run multiple requests together."
+    }
+  ]
+}
