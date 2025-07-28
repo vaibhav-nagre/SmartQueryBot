@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/HTML-rag-diagram.jpg" alt="SmartQueryBot Logo" width="200"/>
+  <img src="" alt="SmartQueryBot Logo" width="200"/>
 </p>
 
 <h1 align="center">🤖 SmartQueryBot</h1>
