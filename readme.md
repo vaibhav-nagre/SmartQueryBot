@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="" alt="SmartQueryBot Logo" width="200"/>
-</p>
-
 <h1 align="center">🤖 SmartQueryBot</h1>
 
 <p align="center">
