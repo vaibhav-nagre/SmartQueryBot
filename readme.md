@@ -1,68 +1,84 @@
-# Chat with a Website from URL - LangChain Chatbot with Streamlit GUI
+<p align="center">
+  <img src="docs/HTML-rag-diagram.jpg" alt="SmartQueryBot Logo" width="200"/>
+</p>
 
-Welcome to the GitHub repository for the LangChain Chatbot with Streamlit GUI! This project is a comprehensive guide to building a chatbot capable of interacting with websites, extracting information, and communicating in a user-friendly manner. It leverages the power of LangChain 0.1.0 and integrates it with a Streamlit GUI for an enhanced user experience.
+<h1 align="center">🤖 SmartQueryBot</h1>
 
-🟡 This repository is meant as supporting material for the [Youtube video tutorial](https://youtu.be/bupx08ZgSFg).
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Status">
+</p>
 
-## Features
-- **Website Interaction**: The chatbot uses the latest version of LangChain to interact with and extract information from various websites.
-- **Large Language Model Integration**: Compatibility with models like GPT-4, Mistral, Llama2, and ollama. In this code I am using GPT-4, but you can change it to any other model.
-- **Streamlit GUI**: A clean and intuitive user interface built with Streamlit, making it accessible for users with varying levels of technical expertise.
-- **Python-based**: Entirely coded in Python.
+<p align="center">
+  <b>AI-powered conversational bot for smart query handling and response generation.</b>
+</p>
 
-## Brief explanation of how RAG works
+---
 
-A RAG bot is short for Retrieval-Augmented Generation. This means that we are going to "augment" the knowledge of our LLM with new information that we are going to pass in our prompt. We first vectorize all the text that we want to use as "augmented knowledge" and then look through the vectorized text to find the most similar text to our prompt. We then pass this text to our LLM as a prefix.
+## ✨ Features
 
-This is more clearly explained in the [Youtube video tutorial](https://youtu.be/bupx08ZgSFg), but here is a diagram that shows the process:
+- Natural language query understanding
+- Context-aware conversation history
+- Customizable response patterns
+- Easy training with your own data
+- Local model support
+- Modular and extensible codebase
 
-![RAG Diagram](docs/HTML-rag-diagram.jpg)
+---
 
-## Installation
-Ensure you have Python installed on your system. Then clone this repository:
+## 🚀 Quick Start
+
+### 1. Clone the repository
 
 ```bash
-git clone [repository-link]
-cd [repository-directory]
+git clone https://github.com/vaibhav-nagre/SmartQueryBot.git
+cd SmartQueryBot
 ```
 
-Install the required packages:
+### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Create your own .env file with the following variables:
+### 3. Run the bot
 
 ```bash
-OPENAI_API_KEY=[your-openai-api-key]
+python src/app.py
 ```
 
-## Usage
-To run the Streamlit app:
+---
 
-```bash
-streamlit run app.py
+## 🛠️ Project Structure
+
+```
+SmartQueryBot/
+├── src/                # Source code
+├── data/               # Training and response data
+├── response_data/      # Response patterns
+├── chroma_db/          # Vector database
+├── conversation_history/ # Conversation logs
+├── logs/               # Log files
+├── docs/               # Documentation and diagrams
+├── requirements.txt    # Python dependencies
+└── readme.md           # Project documentation
 ```
 
-## Contributing
-This repository is meant as supporting material for the [Youtube video tutorial](https://youtu.be/bupx08ZgSFg). Therefore, I am not accepting any pull requests unless they are for fixing bugs or typos.
+---
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📚 Documentation
+
+- See the `docs/` folder for architecture diagrams and more details.
 
 ---
 
-**Note**: This project is for educational and research purposes. Ensure to comply with the terms of use and guidelines of the utilized APIs and services.
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
 ---
 
-I hope this repository helps you in your journey of exploring AI and chatbot development. For more information and tutorials, check out [Your YouTube Channel].
-
-Happy Coding! 🚀👨‍💻🤖
-
----
-
-*Don't forget to star this repo if you find it useful!*
-
----
+<p align="center">
+  <b>Made with ❤️ by Vaibhav Nagre</b>
+</p>
